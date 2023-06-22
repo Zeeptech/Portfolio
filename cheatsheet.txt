@@ -1,4 +1,5 @@
-ELEMENTS
+HTML -- HyperText Markup Language
+ELEMENTS:
 <!DOCTYPE html> -- HTML -> Överst på koden, vad för typ av document
 <head> -- Head -> Kod som inte syns
 <title> -- Title -> Sätter namnet på hemsidan
@@ -6,8 +7,14 @@ ELEMENTS
 <p> -- Paragraph -> En rad av text
 <h1> -- Header -> Rubriker finns från h1-h6
 <div> -- Division -> Delar upp koden för att lättare hänga med.
+<span> -- Span -> Inline Content utan att göra nya lines
 <a> -- Anchor -> Länkar eller hänvisa till ett ID
 <img> -- Image -> Länkar till en bild med scr -- Source
-ATRIBUTES
+<video> -- Video -> Länkar till en video med scr, Ska ha en Width, height + controls -- basic video controlls -> Paus, Play
+<alt> -- AlternativeText -> Om IMG inte laddar så ser man text som förklarar vad som skulle vart där. Även används för TextToSpeech.
+<ul> -- Unordered List -> Punktlista 
+<ol> -- Ordered List -> Nummerlista
+<li> -- List Item -> Individuellt item i list
+ATRIBUTES:
 href= -- Hyperlänk -> refererar till en länk eller ID 
 target: -- Hur ska länken öppnas
