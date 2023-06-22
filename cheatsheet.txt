@@ -7,6 +7,7 @@ ELEMENTS
 <h1> -- Header -> Rubriker finns från h1-h6
 <div> -- Division -> Delar upp koden för att lättare hänga med.
 <a> -- Anchor -> Länkar eller hänvisa till ett ID
+<img> -- Image -> Länkar till en bild med scr -- Source
 ATRIBUTES
 href= -- Hyperlänk -> refererar till en länk eller ID 
 target: -- Hur ska länken öppnas
