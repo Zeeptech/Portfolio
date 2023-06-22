@@ -1,0 +1,12 @@
+ELEMENTS
+<!DOCTYPE html> -- HTML -> Överst på koden, vad för typ av document
+<head> -- Head -> Kod som inte syns
+<title> -- Title -> Sätter namnet på hemsidan
+<body> -- Body -> Allt som syns på skärmen. Grunden på hemsidan
+<p> -- Paragraph -> En rad av text
+<h1> -- Header -> Rubriker finns från h1-h6
+<div> -- Division -> Delar upp koden för att lättare hänga med.
+<a> -- Anchor -> Länkar eller hänvisa till ett ID
+ATRIBUTES
+href= -- Hyperlänk -> refererar till en länk eller ID 
+target: -- Hur ska länken öppnas
