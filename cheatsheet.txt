@@ -17,4 +17,4 @@ ELEMENTS:
 <li> -- List Item -> Individuellt item i list
 ATRIBUTES:
 href= -- Hyperlänk -> refererar till en länk eller ID 
-target: -- Hur ska länken öppnas
+target= -- Hur ska länken öppnas
