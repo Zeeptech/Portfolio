@@ -15,6 +15,11 @@ ELEMENTS:
 <ul> -- Unordered List -> Punktlista 
 <ol> -- Ordered List -> Nummerlista
 <li> -- List Item -> Individuellt item i list
+<table> -- Table -> Skapar en cell
+<tr> -- Table Row -> Varje Rad i cellen har en Row
+<td> -- Table Data -> Själva Datan som skall stå i rowen
+<th> -- Table Header -> Ge titlar till cellen?
 ATRIBUTES:
 href= -- Hyperlänk -> refererar till en länk eller ID 
 target= -- Hur ska länken öppnas
+id="" -- Sets a ID to the tag
