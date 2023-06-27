@@ -39,28 +39,48 @@ h2 {
    
     display:flex;
     justify-content: center;
+    background-color: aqua;
+    border-style: solid;
+    border-radius: 500px;
+    border-width: 4px;
+    
+    
     
     
 }
-#zeeptech {
+.card {
    
-    display:flex;
-    justify-content: center;
+    display:grid;
+    text-align: center;
     
-    
+   
 }
-#enhasa {
-   
-    display:flex;
-    justify-content: center;
-    
-    
-}
-#picname {
-   
+
+#specs {
     display: flex;
-    justify-content: space-evenly;
-    gap:0px;
+    justify-content: center;
+}
+#specs table th, #specs table td {
+    background-color: aquamarine;
+    padding: 15px;
+    font-size: large;
+    border-color: black;
+    border-radius: 20px;
+    border-style:solid;
+
+}
+.div {
+    border-style: solid;
+    border-radius: 20px;
+    background-color: aqua;
+    border:solid 5px;
     
     
+
+}
+.wrapper {
+
+    display: grid;  
+    justify-content: center;
+
 }
