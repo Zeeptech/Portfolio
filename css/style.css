@@ -1,0 +1,66 @@
+
+
+#ep1 {
+
+    position: fixed;
+    top:2px;
+    
+}
+p {
+    text-align: center;
+    font-size:medium;
+}
+h1{
+    text-align: center;
+    
+}
+h2 { 
+    text-align: center;
+
+}
+#goals {
+
+        display: flex;
+        justify-content: center;
+
+}
+#games {
+
+    display: flex;
+    justify-content: center;
+}
+#foods {
+
+    display: flex;
+    justify-content: center;
+}
+
+#chads {
+   
+    display:flex;
+    justify-content: center;
+    
+    
+}
+#zeeptech {
+   
+    display:flex;
+    justify-content: center;
+    
+    
+}
+#enhasa {
+   
+    display:flex;
+    justify-content: center;
+    
+    
+}
+#picname {
+   
+    display: flex;
+    justify-content: space-evenly;
+    gap:0px;
+    
+    
+}
