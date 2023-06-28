@@ -16,7 +16,7 @@ h1{
 }
 h2 { 
     text-align: center;
-
+    
 }
 #goals {
 
@@ -25,9 +25,10 @@ h2 {
 
 }
 #games {
-
     display: flex;
     justify-content: center;
+    
+   
 }
 #foods {
 
@@ -39,48 +40,51 @@ h2 {
    
     display:flex;
     justify-content: center;
-    background-color: aqua;
-    border-style: solid;
-    border-radius: 500px;
-    border-width: 4px;
-    
-    
-    
-    
+
 }
 .card {
    
     display:grid;
     text-align: center;
-    
-   
 }
+.div {
+    border-style: inset;
+    border-radius: 20px;
+    border-color: goldenrod;
+    border-width: 7px;
+}
+.wrapper {
 
+    display: grid;  
+    justify-content: center;
+
+}
 #specs {
     display: flex;
     justify-content: center;
 }
 #specs table th, #specs table td {
-    background-color: aquamarine;
-    padding: 15px;
+    background-color: rgb(1, 174, 243);
+    padding: 18px;
     font-size: large;
     border-color: black;
     border-radius: 20px;
     border-style:solid;
 
 }
-.div {
-    border-style: solid;
-    border-radius: 20px;
-    background-color: aqua;
-    border:solid 5px;
-    
-    
+.setup {
+    display: grid;
+    justify-content: center;
+    border-style: inset;
+    border-width: 15px;
+    border-color:crimson;
+    text-align: center;
 
 }
-.wrapper {
-
-    display: grid;  
+#setup {
+    display: grid;
     justify-content: center;
+
+    text-align: center;
 
 }
