@@ -1,0 +1,32 @@
+#meme {
+    background-color: beige;
+    padding: 18px;
+    font-size: large;
+    border-color:goldenrod;
+    border-radius: 20px;
+    border-style:inset;
+    border-width: 10px;
+}
+
+
+#meme table th, #meme table td {
+    text-align: center;
+    padding: 18px;
+    font-size: large;
+    border-width: 5px;
+    border-color: goldenrod;
+    
+
+}
+
+#specs table th, #specs table td {
+    background-color: beige;
+    padding: 18px;
+    font-size: large;
+    border-width: 5px;
+    border-color: goldenrod;
+    border-radius: 20px;
+    border-style:inset;
+
+}
+
