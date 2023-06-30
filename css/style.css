@@ -91,15 +91,18 @@ h2 {
 
 }
 .enemy {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
     border-width: 10px;
     border-radius: 5px;
     border-color: goldenrod;
     border-style: inset;
-    border-collapse: separate;
+    
     padding:0px;
     margin:10px;
+    
 
 }
 img {
