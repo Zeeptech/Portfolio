@@ -1,0 +1,7 @@
+.goldenBorderBig {
+    border-style: inset;
+    border-width: 10px;
+    border-color: goldenrod;
+    border-radius: 20px;
+
+}

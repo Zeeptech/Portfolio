@@ -11,7 +11,11 @@
     width: auto;
     
 }
+#meme table{
+    width:0;
+   
 
+}
 
 #meme table th, #meme table td {
     text-align:center;
@@ -32,7 +36,11 @@ outline:5px inset goldenrod;
 }
 
 
-
+#specs {
+    background-color: beige;
+    padding:20px;
+        
+}
 
 #specs table th, #specs table td {
     background-color: beige;
