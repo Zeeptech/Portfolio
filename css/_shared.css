@@ -21,3 +21,10 @@ justify-content: center;
     border-color: goldenrod;
     padding:25px;
 }
+.header-Wrapper{
+    display:flex;
+    margin:20px;
+    padding: 20px;
+
+
+}

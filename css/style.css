@@ -55,16 +55,6 @@ h2 {
     background-color:azure;
     
 }
-.wrapper {
-
-    display: grid;  
-    justify-content: center;
-    background-color:beige;
-    border-style: inset;
-    border-width: 5px;
-    border-color: goldenrod;
-    padding:25px;
-}
 #specs {
     display: flex;
     justify-content: center;
