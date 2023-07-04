@@ -6,6 +6,18 @@
 
 }
 #IMG{
+display: flex;
+justify-content: center;
 
+}
 
+.wrapper {
+
+    display: grid;  
+    justify-content: center;
+    background-color:beige;
+    border-style: inset;
+    border-width: 10px;
+    border-color: goldenrod;
+    padding:25px;
 }
