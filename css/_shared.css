@@ -21,10 +21,9 @@ justify-content: center;
     border-color: goldenrod;
     padding:25px;
 }
-.header-Wrapper{
-    display:flex;
-    margin:20px;
-    padding: 20px;
-
+.header{
+display: none;
+grid-area: header;
+grid-template-columns: 50px 50px;
 
 }

@@ -23,3 +23,4 @@ ATRIBUTES:
 href= -- Hyperlänk -> refererar till en länk eller ID 
 target= -- Hur ska länken öppnas
 id="" -- Sets a ID to the tag
+class="" -- Sets a Class to the tag
