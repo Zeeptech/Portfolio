@@ -1,0 +1,23 @@
+*{
+    font-family:cursive;
+    
+    
+}
+h1{
+    text-align: center;
+    font-size:70px;
+    text-shadow:0 5px 0 goldenrod;
+    border: 5px inset goldenrod;
+    border-radius: 20px;
+    background-color: beige;
+    
+ 
+}
+h2{
+    text-align: center;
+    
+}
+p{
+    text-align: center; 
+     
+}
