@@ -1,0 +1,105 @@
+
+
+#ep1 {
+
+    position: fixed;
+    top:2px;
+    
+}
+p {
+    text-align: center;
+    font-size:medium;
+}
+h1{
+    text-align: center;
+    
+}
+h2 { 
+    text-align: center;
+    
+}
+#goals {
+
+        display: flex;
+        justify-content: center;
+
+}
+#games {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+#foods {
+
+    display: flex;
+    justify-content: center;
+}
+
+#chads {
+   
+    display:flex;
+    justify-content: center;
+
+}
+.card {
+   
+    display:grid;
+    text-align: center;
+}
+.div {
+    border-style: inset;
+    border-radius: 20px;
+    border-color: goldenrod;
+    border-width: 7px;
+    background-color:azure;
+    
+}
+#specs {
+    display: flex;
+    justify-content: center;
+}
+
+.setup-wrapper {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    background-color: beige;
+
+}
+.item-wrapper{
+    border-style: inset;
+    border-width: 15px;
+    border-color:goldenrod;
+    text-align: center;
+    padding: 20px;
+    background-color:beige;
+    border-radius: 20px;
+
+}
+.item-wrapper .item {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+
+}
+.enemy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: goldenrod;
+    border-style: inset;
+    
+    padding:0px;
+    margin:10px;
+    
+
+}
+img {
+vertical-align: middle;
+
+}
+

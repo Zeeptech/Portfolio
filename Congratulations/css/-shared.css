@@ -1,0 +1,38 @@
+
+.wrapper{
+    display: grid;
+    justify-content: center;
+border: 10px inset rgb(7, 244, 244);
+padding: 5px;
+margin: 5px;
+border-radius: 10px;
+background: linear-gradient(to bottom right, grey, black);
+
+}
+.item-wrapper{
+    border: 10px inset rgb(252, 0, 193);
+    
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+.item{
+    border: 5px inset rgb(0, 208, 255);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 1px black;
+    
+}
+.img{
+    width: 300px;
+    border: 10px inset goldenrod;
+    margin:50px;
+    box-shadow: 0px 4px 10px 1px black;
+
+}
+.center{
+    display: grid;
+    justify-content: center;
+}

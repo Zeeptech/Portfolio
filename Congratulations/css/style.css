@@ -1,0 +1,39 @@
+*{
+    font-family:cursive;
+    
+    
+}
+h1{
+    text-align: center;
+    font-size:70px;
+    text-shadow:0 5px 0 rgb(251, 3, 205);
+    border-radius: 20px;
+    background-color: beige;
+    border: 10px inset transparent;
+    border-image: linear-gradient(to right, rgb(245, 1, 155), rgb(7, 212, 248));
+    border-image-slice: 1;
+   
+ 
+}
+h2{
+    text-align: center;
+    color: azure;
+}
+p{
+    text-align: center;
+    color: azure; 
+    
+}
+body{
+    background: linear-gradient(to bottom right, rgb(0, 247, 255), rgb(255, 0, 204));
+}
+a{
+    color:rgb(0, 225, 255);
+    text-decoration: none;
+    transition: 500ms all ease-in-out;
+}
+a:hover {
+    text-decoration: underline;
+    color:rgb(255, 3, 213);
+
+  }

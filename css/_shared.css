@@ -1,0 +1,29 @@
+.goldenBorderBig {
+    border-style: inset;
+    border-width: 10px;
+    border-color: goldenrod;
+    border-radius: 20px;
+
+}
+#IMG{
+display: flex;
+justify-content: center;
+
+}
+
+.wrapper {
+
+    display: grid;  
+    justify-content: center;
+    background-color:beige;
+    border-style: inset;
+    border-width: 10px;
+    border-color: goldenrod;
+    padding:25px;
+}
+.header{
+display: none;
+grid-area: header;
+grid-template-columns: 50px 50px;
+
+}
