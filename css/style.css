@@ -12,11 +12,13 @@ p {
 }
 h1{
     text-align: center;
+    text-shadow:3px 1px 3px rgb(238, 208, 11);
+    font-size: xxx-large;
     
 }
 h2 { 
     text-align: center;
-    
+    text-shadow:3px 1px 3px rgb(236, 186, 5);
 }
 #goals {
 
@@ -46,13 +48,14 @@ h2 {
    
     display:grid;
     text-align: center;
+
 }
 .div {
-    border-style: inset;
+    box-shadow: 5px 5px 10px;
     border-radius: 20px;
     border-color: goldenrod;
     border-width: 7px;
-    background-color:azure;
+    background: linear-gradient(to bottom right, rgb(252, 211, 7), rgb(239, 149, 3));
     
 }
 #specs {
