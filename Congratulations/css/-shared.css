@@ -36,3 +36,17 @@ background: linear-gradient(to bottom right, grey, black);
     display: grid;
     justify-content: center;
 }
+.navbar {
+    position: fixed;
+    background: linear-gradient(to bottom right, grey, black);
+    border-radius: 20px;
+    padding: 7px;
+    box-shadow: 0px 5px 7px;
+    text-indent: 15px;
+
+
+    
+}
+.navbar a {
+    margin-right: 20px ;
+}
