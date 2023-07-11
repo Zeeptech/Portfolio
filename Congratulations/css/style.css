@@ -18,11 +18,11 @@ h1{
 h2{
     text-align: center;
     color: azure;
+    text-shadow:0 1px 0 rgb(251, 3, 205);
 }
 p{
     text-align: center;
     color: azure; 
-    
 }
 body{
     background: linear-gradient(to bottom right, rgb(0, 247, 255), rgb(255, 0, 204));
