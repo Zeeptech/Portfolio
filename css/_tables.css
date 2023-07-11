@@ -43,13 +43,13 @@ outline:5px inset goldenrod;
 }
 
 #specs table th, #specs table td {
-    background-color: beige;
+    background: linear-gradient(to bottom right, beige, goldenrod);
     padding: 18px;
     font-size: large;
     border-width: 5px;
-    border-color: goldenrod;
-    border-radius: 20px;
-    border-style:inset;
+    border-radius: 50px;
+    box-shadow: 0px 5px 7px;
+  
 
 }
 
