@@ -1,3 +1,31 @@
 body{
+    
     background-color: azure;
+    box-shadow: 0px 5px 7px;
 }
+header{
+    background: linear-gradient(to bottom right, rgb(18, 81, 4), black);
+    color: azure;
+    
+}
+main{
+    background: linear-gradient(to bottom right, rgb(18, 81, 4), black);
+    color: azure;
+}
+footer{
+    background: linear-gradient(to bottom right, rgb(18, 81, 4), black);
+    color: azure;
+}
+a{
+    color: aqua;
+    
+}
+a:hover {
+    text-decoration: underline;
+    color:rgb(255, 3, 213);
+    text-decoration: none;
+    transition: 500ms all ease-in-out;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
