@@ -1,0 +1,12 @@
+/* Targets Hero*/
+hero {
+    display: flex;
+    justify-content: center;
+}
+hero img{
+    margin: 15px;
+    padding: 10px; 
+}
+hero #text {
+   margin-top: 20px;
+}
