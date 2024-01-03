@@ -1,3 +1,4 @@
+/* Targets General */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 * {
@@ -7,8 +8,9 @@
 html {
     scroll-behavior: smooth;
   }
-  body {
+
+body {
     color:whitesmoke;
-    background: rgb(24, 24, 24);
+    background: #181818;
     margin:0;
  }

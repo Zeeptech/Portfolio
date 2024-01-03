@@ -1,17 +1,15 @@
+/* Targets Navbar*/
 #navbar{
     padding: 5px;
     background-color: rgb(35, 35, 35);
-    
 }
 
 #navbar ul { 
     display: flex;
-   
     margin: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 #navbar ul li{
-    
     list-style-type: none;
     padding: 5px;
 }

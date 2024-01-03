@@ -1,5 +1,19 @@
 /* Targets Classes */
 .highlight{
-    color: rgb(233, 9, 253);
+    color: rgb(24, 241, 24);
+    
+}
+.textwrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text{
+    display: grid;
+    margin: 15px;
+    background-color: #252525;
+    border-radius: 15px;
+}
+.text h2{
+    justify-self: center;
     
 }
