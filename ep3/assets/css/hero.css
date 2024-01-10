@@ -6,7 +6,12 @@ hero {
 hero img{
     margin: 15px;
     padding: 10px; 
+    border-radius: 200px;
 }
 hero #text {
    margin-top: 20px;
+}
+hero img:hover{
+    transition: 1s;
+    box-shadow: rgb(218, 12, 236) 0px 0px 100px 15px ;
 }

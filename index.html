@@ -6,19 +6,33 @@
         <link rel="stylesheet" href="ep3/assets/css/navbar.css">
         <link rel="stylesheet" href="ep3/assets/css/hero.css">
         <link rel="stylesheet" href="ep3/assets/css/class.css">
+        <link rel="stylesheet" href="ep3/assets/css/footer.css">
+        <script src="ep3/js/dropdown.js" defer></script>
         <meta charset="UTF-8">
     </head>
     <body>
         <header>
-            <div id="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Om Mig</a></li>
-                    <li><a href="index.html">Sång</a></li>
-                    <li><a href="index.html">Motorcykel</a></li>
-                    <li><a href="index.html">Kod</a></li>
-                    <li><a href="ep1/index.html">Episode HTML</a></li>
-                    <li><a href="ep2/index.html">Episode CSS</a></li>
+            <div id="navbar_wrapper">
+                <div id="navbar">
+                    <ul>
+                        <li><img src="ep3/assets/img/menu-burger.png" title="Projects" onclick="dropdown()" class="dropdown-button"></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Om Mig</a></li>
+                        <li><a href="index.html">Sång</a></li>
+                        <li><a href="index.html">Motorcykel</a></li>
+                        <li><a href="index.html">Kod</a></li>
+                        <li><a href="ep1/index.html">Episode HTML</a></li>
+                        <li><a href="ep2/index.html">Episode CSS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dropdown">
+                <ul id="myDropdown" class="dropdown-content">
+                    <li>Project 1</li>
+                    <li>Project 2</li>
+                    <li>Project 3</li>
+                    <li>Project 4</li>
+                    <li>Project 5</li>
                 </ul>
             </div>
         </header>
