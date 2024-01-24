@@ -6,47 +6,55 @@
 #navbar{
     padding: 5px;
     background-color: rgb(35, 35, 35);
-    
+
 }
 
 #navbar ul {
     display:flex;
+    align-items:center;
     margin: 10px;
     justify-content: space-evenly;
+    list-style-type: none;
 }
 #navbar ul li{
-    list-style-type: none;
+    display: inline-block;
+    position: relative;
     padding: 5px;
 }
 #navbar ul li a{
     color: rgb(24, 241, 24);
     text-decoration: none;
+    display: block;
 }
 #navbar ul li a:hover{
     cursor: pointer;
     color: rgb(7, 97, 7);
 }
-#navbar img:hover {
-   
+.dropdown{
+    position: relative;
+}
+.dropdown-bttn:hover{
     cursor: pointer;
     opacity: 0.2;
 }
-#navbar img{
-    padding-top: 4px;
+.dropdown:hover .dropdown-content{
+    display: grid;
+    border-radius: 7px;
 }
-.dropdown{
-    position: relative;
-  display: inline-block;
-}
-.dropdown-button{
-
+.dropdown-bttn{
+    padding: 20px;
+    margin: -15px;
+  
 }
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 15px;
+    padding: 10px;
+    white-space: nowrap;
+    background-color: rgb(54, 54, 54);
     z-index: 1;
+
 }
-.show {display:block;}

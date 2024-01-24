@@ -17,6 +17,7 @@
     justify-self: center;
     
 }
+
 @media only screen and (max-width: 1000px) {
     .textwrapper{
         grid-template-columns: 1fr;
