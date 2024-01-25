@@ -7,43 +7,19 @@
         <link rel="stylesheet" href="ep3/assets/css/hero.css">
         <link rel="stylesheet" href="ep3/assets/css/class.css">
         <link rel="stylesheet" href="ep3/assets/css/footer.css">
-        
+        <script src="ep3/assets/js/navbar.js"></script>
+        <script src="ep3/assets/js/footer.js"></script>
         <meta charset="UTF-8">
     </head>
     <body>
-        <header>
-            <div id="navbar_wrapper">
-                <div id="navbar">
-                    <ul>
-                        <li>
-                            <div class="dropdown">
-                                <img src="ep3/assets/img/menu-burger.png" class="dropdown-bttn" title="Projects" >
-                                <div class="dropdown-content">
-                                    <a href="#">Project 1</a>
-                                    <a href="#">Project 2</a>
-                                    <a href="#">Project 3</a>
-                                    <a href="#">Project 4</a>
-                                    <a href="#">Project 5</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="ep3/about.html">Om Mig</a></li>
-                        <li><a href="ep3/song.html">Sång</a></li>
-                        <li><a href="ep3/mc.html">Motorcykel</a></li>
-                        <li><a href="ep3/code.html">Kod</a></li>
-                        <li><a href="ep1/index.html">Episode HTML</a></li>
-                        <li><a href="ep2/index.html">Episode CSS</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="dropdown">
-
-            </div>
-        </header>
+        <div id="header">
+            <script >
+                renderHeader("ep3/", "","ep1/","ep2/");
+            </script>
+        </div>
         <article>
             <hero>
-                <img src="ep3/assets/img/Mesmall.png" alt="BIld på mig">
+                <img src="ep3/assets/img/Mesmall.png" alt="Bild på mig">
                 <div id="text">
                     <h1>Det är jag som är <strong class="highlight">Felix</strong>!</h1>
                     <p> <!--Kort och konsivt, skapar spänning-->
@@ -82,9 +58,10 @@
                 </div>
             </section>
         </article>
-        <footer>
-            <a href="https://github.com/Zeeptech" target="_blank"><img src="ep3/assets/img/Github.png" alt="Github.com"></a>
-            <a href="https://www.linkedin.com/in/felix-bard%C3%A9n-5b3b3820a/" target="_blank"><img src="ep3/assets/img/Linkedin.png" alt="Linkedin.com"></a>
+        <footer id="footer">
+            <script>
+                renderFooter("ep3/");
+            </script>
         </footer>
     </body>
 </html>
