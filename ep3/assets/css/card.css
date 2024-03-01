@@ -1,0 +1,45 @@
+.card-wrapper {
+ display: grid;
+ grid-template-columns: repeat(4 , 1fr);
+ gap: 20px;
+ 
+}
+.card {
+    background-image: linear-gradient(45deg, #0a0a0a 0%, #2c2c2c 20%, #000000 100%);
+    
+}
+.image-wrapper {
+    height: 600px;
+    
+}
+.image-wrapper img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -6px;
+    object-fit: cover;
+}
+.card .text-wrapper{
+    display: grid;
+    text-align: center;
+}
+.card .header {
+
+}
+.card .sub-header {
+
+}
+@media only screen and (max-width: 1200px) {
+    .card-wrapper {
+        grid-template-columns: repeat(3 , 1fr);  
+       }
+  }
+  @media only screen and (max-width: 1000px) {
+    .card-wrapper {
+        grid-template-columns: repeat(2 , 1fr);
+       }
+  }
+  @media only screen and (max-width: 800px) {
+    .card-wrapper {
+        grid-template-columns: repeat(1 , 1fr);
+       }
+  }
