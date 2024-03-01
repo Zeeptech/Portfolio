@@ -1,6 +1,4 @@
 
-console.log("Hello Penis");
-
 function renderHeader(path ,homePath, ep1Path, ep2Path) {
 const navbar = `
 

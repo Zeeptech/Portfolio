@@ -7,6 +7,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.mctextwrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .text{
     display: grid;
     margin: 15px;

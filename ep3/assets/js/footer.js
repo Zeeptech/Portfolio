@@ -11,5 +11,4 @@ function renderFooter(path){
     `;
     const footerTarget = document.getElementById("footer");
     footerTarget.innerHTML = footer;
-    console.log("FootFetish");
 };

@@ -1,0 +1,12 @@
+
+table{
+    font-size: larger;
+    border-radius: 5px;
+}
+table tr th{
+    border: 2px solid black;
+}
+table tr td{
+    text-align: center;
+    
+}
