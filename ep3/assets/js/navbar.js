@@ -10,7 +10,7 @@ const navbar = `
                                 <div class="dropdown">
                                     <img src="${path}assets/img/menu-burger.png" class="dropdown-bttn" title="Projects" >
                                     <div class="dropdown-content">
-                                        <a href="${fortuneDrawingPath}/index.html">Project 1 - Draw a Fortune</a>
+                                        <a href="${fortuneDrawingPath}index.html">Project 1 - Draw a Fortune</a>
                                         <a href="#">Project 2</a>
                                         <a href="#">Project 3</a>
                                         <a href="#">Project 4</a>
