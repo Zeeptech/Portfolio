@@ -2,7 +2,6 @@
  display: grid;
  grid-template-columns: repeat(4 , 1fr);
  gap: 20px;
- 
 }
 .card {
     background-image: linear-gradient(45deg, #0a0a0a 0%, #2c2c2c 20%, #000000 100%);
@@ -28,9 +27,19 @@
 .card .sub-header {
 
 }
+@media only screen and (max-width: 1650px) {
+    .card-wrapper {
+        .image-wrapper {
+            height: 450px;
+            
+        }
+          
+       }
+  }
 @media only screen and (max-width: 1200px) {
     .card-wrapper {
-        grid-template-columns: repeat(3 , 1fr);  
+        grid-template-columns: repeat(3 , 1fr);
+
        }
   }
   @media only screen and (max-width: 1000px) {

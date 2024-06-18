@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+
+   font-family: 'Nunito', sans-serif;
+   font-size: 35px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+    margin: 0;
+    height: 100vh;
+
+
+}
+
+#blur {
+    background-image: url('../img/background.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter:blur(4px);
+    width: 100%;
+    height: 100%;
+    
+}
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+#content{
+    position: relative;
+    z-index: 2;
+}
+.customBttn{
+    all: unset;
+}
+.customBttn img{
+    all: unset;
+    margin-bottom: -5px;
+}
+#copy:hover{
+    filter: brightness(50%);
+}
+#copy:active{
+    filter: brightness(30%);
+}
+
+#copiedWrapper{
+    display: none;
+    align-items: center;
+    gap: 10px;
+}
+
+#copiedTxt {
+    position: absolute;
+    display: none;
+    margin-top:-6.5px;
+    margin-left: -80px;
+    background-color: rgb(26, 143, 98);
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+
+#drawFortuneButton{
+   font-size: xx-large;
+    margin: 15px;
+}
+#fortuneButtonWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+#fortuneWrapper {
+    display: grid;
+    justify-content: center;
+    width: 50%;
+}
+
+#fortuneBox{
+    display: none;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #e7dfdf;
+    background-color: #292828;
+}
+#content img, #content video, #content canvas {
+    overflow: hidden;
+}
