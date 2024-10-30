@@ -1,0 +1,326 @@
+/* Skapar font-family. Selawik-Semibold för <h> taggar och Selawik för resterande text.*/
+@font-face { 
+    font-family: "Selawik";
+    src: url(fonts/selawk.woff) format("woff"),
+         url(fonts/selawk.woff2) format("woff2");
+}
+@font-face {         
+    font-family: "Selawik-Semibold";
+    src: url(fonts/selawksb.woff) format("woff"),
+         url(fonts/selawksb.woff2) format("woff2");
+}
+/* En enkel CSS-reset, gör länk-scrolling Smooth*/
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Grupp med variablar för färgsättning av text*/
+    --text-primary: whitesmoke;
+    --text-secundary: black;
+
+    /*Grupp med variablar för färgsättning av "Foreground"*/
+    --fg-primary:#c0bbbb;
+    --fg-primary-hover: rgb(82, 81, 81);
+    --fg-primary-active: rgb(37, 37, 37) ;
+
+    --fg-secundary: rgb(77, 76, 76);
+    --fg-secundary-hover: rgb(34, 33, 33); 
+    --fg-secundary-active: rgb(61, 61, 61);
+     
+    --fg-accent:#78b1e0 ;
+
+
+    /*Grupp med variablar för färgsättning av "Background"*/
+    --bg-primary: #1f2228;
+    --bg-secundary: #333435;
+    --bg-tertiary:#202022 ;
+    --bg-accent: #c0bbbb;
+
+}
+
+/* */
+img {
+    vertical-align: middle;
+}
+
+/* Sätter Selawik-Semibold som huvud-font men skulle den inte finnas så användes sans-serif. Lägger även till padding då vi tagit bort det via css-reset*/
+h1,h2,h3 {
+    font-family: "Selawik-Semibold", sans-serif;
+    padding: 10px;
+}
+/* Lägger till padding för att göra texten mer läsbar*/
+p {
+    padding: 10px;
+}
+
+/* Sätter Selawik som huvud-font men skulle den inte finnas så användes sans-serif*/
+body {
+    font-family: "Selawik", sans-serif;
+    background-color:var(--bg-primary) ;
+    
+}
+/* Sätter Färgen på H1 taggarna i samma färg som loggan*/
+.header-color {
+    /* color:#1f2228; */ 
+    color: var(--text-primary);
+}
+.wrapper {
+    display: grid;
+    width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    grid-template-areas: 
+        "head head head"
+        "navb navb navb"
+        "main main main"
+        "foot foot foot"
+    ;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:var(--bg-tertiary);
+    grid-area: head;
+}
+header figure {
+    height: 75px;
+    
+}
+header figure img {
+    height: 100%;
+    padding-left: 15px;
+}
+.analys-link {
+    color: var(--text-secundary);
+    margin: 0 15px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: var(--fg-accent) ;
+}
+
+.analys-link:hover {
+    color: var(--text-primary);
+    background-color: var(--fg-primary-hover);
+}
+.analys-link:active{
+    background-color: var(--fg-primary-active);
+}
+
+
+/* NAVBAR */
+nav {
+    grid-area: navb;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li {
+    background-color: var(--fg-primary);
+}
+nav ul li:hover{
+    background-color: var(--fg-primary-hover);
+}
+nav ul li a:hover{
+    color: var(--text-primary);
+}
+nav ul li:active{
+    color: var(--text-primary);
+    background-color: var(--fg-primary-active);
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a figure img {
+    width: 100%;
+}
+
+/* MAIN */
+main {
+    background-color:var(--bg-secundary);
+    grid-area: main;
+    
+}
+main section h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main section div figure img {
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+main section article {
+    display: grid;
+    row-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* PRODUKT-CARD */
+.card {
+    box-shadow: 0 4px 8px 0;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: var(--bg-accent);
+}
+.card h1 {
+    letter-spacing: 2px;
+}
+.card img {
+    width: 100%;
+}
+.card button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: var(--fg-secundary);
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+.card button:hover {
+    background-color: var(--fg-secundary-hover);
+}
+.card button:active {
+    background-color: var(--fg-secundary-active);
+}
+.price {
+    font-weight: bold;
+    color: rgb(39, 38, 38);
+  }
+
+/* FOOTER */
+footer {
+    display: grid;
+    color: whitesmoke;
+    grid-area: foot;
+    background-color: var(--bg-tertiary);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    
+    "fadr fnav fquo"
+    ;
+}
+.adress {
+    grid-area: fadr;
+}
+.footnav{
+    grid-area: fnav;
+    
+}
+.footnav ul{
+    list-style-position: inside;
+    padding-bottom: 5px;
+
+}
+.footnav ul li a{
+    color: var(--fg-accent);
+}
+.quote {
+    grid-area: fquo;
+}
+
+/* ANALYS SIDAN */
+
+.a-wrapper {
+    display: grid;
+    width: 1300px;
+    height: 110vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(4, auto) ;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    grid-template-areas: 
+        "head head head"
+        "navb navb navb"
+        "main main main"
+        "foot foot foot"
+    ;
+}
+main .analys {
+    padding: 0 20px;
+}
+.analys h1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-primary);
+    margin: 10px;
+}
+main .analys .analys-content {
+    display: grid;
+    grid-template-columns: unset;
+    background-color: var(--bg-secundary);
+    color: var(--text-primary);
+    margin-bottom: 15px;
+}
+
+
+.analys-content {
+    
+}
+/* Mediaqueries längst ner i koden för lättare läsbarhet */
+
+@media only screen and (max-width: 1320px) {
+    .wrapper {
+        width: 100%;
+    }
+    .a-wrapper {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1220px) {
+    main section article {
+        row-gap: 0;
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+    
+
+}
+@media only screen and (max-width: 920px) {
+    main section article {
+        row-gap: 0;
+        grid-template-columns: 1fr 1fr; 
+    }
+    
+
+}
+@media only screen and (max-width: 630px) {
+    main section article {
+        row-gap: 0;
+        grid-template-columns: 1fr; 
+    }
+    
+    .card {
+        width: 85%;
+    }
+}

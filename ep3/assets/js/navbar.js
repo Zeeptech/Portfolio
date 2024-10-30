@@ -1,5 +1,5 @@
 
-function renderHeader(path ,homePath, ep1Path, ep2Path, fortuneDrawingPath) {
+function renderHeader(path ,homePath, ep1Path, ep2Path, fortuneDrawingPath, webdevPath) {
 const navbar = `
 
     <header>
@@ -11,7 +11,7 @@ const navbar = `
                                     <img src="${path}assets/img/menu-burger.png" class="dropdown-bttn" title="Projects" >
                                     <div class="dropdown-content">
                                         <a href="${fortuneDrawingPath}index.html">Project 1 - Draw a Fortune</a>
-                                        <a href="#">Project 2</a>
+                                        <a href="${webdevPath}index.html">Project 2 - Webmaster</a>
                                         <a href="#">Project 3</a>
                                         <a href="#">Project 4</a>
                                         <a href="#">Project 5</a>
@@ -25,6 +25,7 @@ const navbar = `
                             <li><a href="${path}code.html">Kod</a></li>
                             <li><a href="${ep1Path}index.html">Episode HTML</a></li>
                             <li><a href="${ep2Path}index.html">Episode CSS</a></li>
+                            <li></li>
                         </ul>
                     </div>
                 </div>
