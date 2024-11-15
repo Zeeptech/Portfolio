@@ -1,5 +1,5 @@
 
-function renderHeader(path ,homePath, ep1Path, ep2Path, fortuneDrawingPath, webdevPath) {
+function renderHeader(path ,homePath, ep1Path, ep2Path, fortuneDrawingPath, webdevPath, ccPath) {
 const navbar = `
 
     <header>
@@ -12,7 +12,7 @@ const navbar = `
                                     <div class="dropdown-content">
                                         <a href="${fortuneDrawingPath}index.html">Project 1 - Draw a Fortune</a>
                                         <a href="${webdevPath}index.html">Project 2 - Webmaster</a>
-                                        <a href="#">Project 3</a>
+                                        <a href="${ccPath}">Project 3 - Can Clicker</a>
                                         <a href="#">Project 4</a>
                                         <a href="#">Project 5</a>
                                     </div>
