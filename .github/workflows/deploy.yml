@@ -20,7 +20,7 @@ jobs:
           server: ${{ secrets.FILEZILLA_HOST }}
           username: ${{ secrets.FILEZILLA_USERNAME }}
           password: ${{ secrets.FILEZILLA_PASSWORD }}
-          local-dir: /
+          local-dir: ./
           server-dir: /
           exclude: |
             /lost+found
