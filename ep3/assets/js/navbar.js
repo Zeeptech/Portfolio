@@ -1,5 +1,5 @@
 
-function renderHeader(path ,homePath, ep1Path, ep2Path, fortuneDrawingPath, webdevPath, ccPath) {
+function renderHeader(path ,homePath, ep1Path, ep2Path, fortuneDrawingPath, webdevPath, ccPath, salaryPath, examPath) {
 const navbar = `
 
     <header>
@@ -13,8 +13,8 @@ const navbar = `
                                         <a href="${fortuneDrawingPath}index.html">Project 1 - Draw a Fortune</a>
                                         <a href="${webdevPath}index.html">Project 2 - Webmaster</a>
                                         <a href="${ccPath}index.html">Project 3 - Can Clicker</a>
-                                        <a href="#">Project 4</a>
-                                        <a href="#">Project 5</a>
+                                        <a href="${salaryPath}index.html">Project 4 - Salary Calculator</a>
+                                        <a href="${examPath}index.html">Project 5 - Snowflake Clicker</a>
                                     </div>
                                 </div>
                             </li>
