@@ -1,0 +1,24 @@
+name: Deploy to zeeptech.dev
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+          
+      # Copy over all files
+      - name: Copy over all files
+        uses: SamKirkland/ftp-deploy-action@v4.3.4
+        with:
+          server: ${{ secrets.FILEZILLA_HOST }}
+          username: ${{ secrets.FILEZILLA_USERNAME }}
+          password: ${{ secrets.FILEZILLA_PASSWORD }}
+          local-dir: /
+          server-dir: /
