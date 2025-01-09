@@ -22,3 +22,5 @@ jobs:
           password: ${{ secrets.FILEZILLA_PASSWORD }}
           local-dir: /
           server-dir: /
+          exclude: |
+            /lost+found
